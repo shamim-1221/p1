@@ -1,0 +1,27 @@
+Catalog → Internal , select → last option , Next
+Grp id → com.udcs
+Artifact id → firstwebapp
+Version 0.0.1-SNAPSHOT
+Package→ com.udcs.firstwebapp
+
+Edit pom.xml
+Edit web.xml 
+
+
+RC on web-inf → create ‘spring-web-servlet.xml’ → edit
+Make new folder in WEB-INF as views 
+Make a folder inside views as ‘jsp’ and create a ‘hello.jsp’ file 
+
+
+RC on src/main/resources in the file explorer and create a folder named ‘java’ but select ‘main’ in the folder creating wizard before that 
+
+Create a java class in java folder named ‘RegexMatches.java’ 
+
+RC on firstwebapp > Maven > update Project > check on ‘force update snapshot’ > Finish
+RC on project > run as > Maven build 
+In the pop-up, enter goals as ‘clean install’
+RC on project > Run as > Run on server > Apache Tomcat v9 > select any file in configured > Finish 
+
+
+
+
